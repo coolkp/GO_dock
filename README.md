@@ -21,16 +21,17 @@ elastic "gopkg.in/olivere/elastic.v5"
  "github.com/gin-gonic/gin"
  "github.com/gin-contrib/cors"
 
-)```
+)
+```
 <br>
-```go get github.com/speps/go-hashids``` <br>
-```github.com/gin-gonic/gin``` <br>
-```github.com/gin-contrib/cors```
+`go get github.com/speps/go-hashids` <br>
+`github.com/gin-gonic/gin` <br>
+`github.com/gin-contrib/cors`
 <br>
 ### Build & Run
-  ```elasticsearch``` <br>
-  ```go build main.go``` <br>
-  ```./main``` <br>
+  `elasticsearch` <br>
+  `go build main.go` <br>
+  `./main` <br>
 ## Endpoints
   - **Create (Generate short url in DB)**
     - url <a href> localhost:8000/create </a>
